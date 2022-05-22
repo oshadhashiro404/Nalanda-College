@@ -1,0 +1,9 @@
+.text {
+	text-align: center;
+	margin: 20px;
+	font-size: 15px;
+}
+
+.text > a {
+	color: #7c0404;
+}

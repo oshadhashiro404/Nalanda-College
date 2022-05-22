@@ -1,0 +1,24 @@
+.text {
+	text-align: center;
+	font-size: 15px;
+	margin: 20px;
+}
+
+.buttonContainer {
+	color: #fff !important;
+}
+
+.mainBtnContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.mainBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #7c0404;
+	font-size: 17px;
+	width: 45%;
+	height: 30px;
+}

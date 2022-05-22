@@ -1,0 +1,31 @@
+.navbar {
+	display: flex;
+	max-width: calc(100% - 10px);
+}
+
+.navbar > a {
+	margin-right: 10px;
+	padding: 20px 10px;
+	color: #7e8187;
+}
+
+.navLink:hover {
+	color: #111 !important;
+}
+
+.navHeading {
+	font-size: 20px;
+	font-weight: 550 !important;
+	margin-left: 1.5rem;
+	color: #111;
+	flex: 1;
+}
+
+.topText {
+	width: 100%;
+	background-color: #eaeaea;
+	padding: 1.5rem 0;
+	text-align: center;
+	margin: 0;
+	font-size: 15px;
+}

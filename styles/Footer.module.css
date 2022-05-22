@@ -1,0 +1,14 @@
+.footer {
+	width: 100%;
+	margin: 0;
+	background: #7c0404;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+}
+
+.text {
+	margin: 30px;
+}

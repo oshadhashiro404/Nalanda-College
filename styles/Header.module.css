@@ -1,0 +1,32 @@
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links > li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 35px;
+}
+
+.links > li > a {
+	color: #7c0404;
+	font-weight: 600;
+}
+
+.linkIcon {
+	font-size: 110px;
+	color: #7e8187;
+	margin-bottom: 30px;
+}
+
+.headerImg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
