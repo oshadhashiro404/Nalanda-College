@@ -20,16 +20,85 @@ const PapersDownload = () => {
 					</a>
 				</div>
 
-				<div className={styles.gradeButtonContainer}>
-					<a>Grade 4</a>
-					<a>Grade 5</a>
-					<a>Grade 6</a>
-					<a>Grade 7</a>
-					<a>Grade 8</a>
-					<a>Grade 9</a>
-					<a>Grade 10</a>
-					<a>Grade 11</a>
-					<a>Grade 12 - 13</a>
+				<div className={styles.gradeBtnContainer}>
+					<div className={styles.row}>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/1p9JX45-lTHkqLmuGqJ5jSb2Z8KiFooxN?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 4
+						</a>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/1z5vY2C2gUPrlwS4z8AkBOiILXLrEIs70?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 5
+						</a>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/19XwW_tEQzaXz-a5nb0bPYI11Hl2_PSs3?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 6
+						</a>
+					</div>
+					<div className={styles.row}>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/1DGJejjI0B1G5w0dCFJn7OqOcty7vGGxG?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 7
+						</a>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/1xUPWwYo8f3zeM8z1FQdkNlvHx093k58r?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 8
+						</a>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/1zypq-Uh9mNDzALH-84jYLxmL9a8ZOfel?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 9
+						</a>
+					</div>
+					<div className={styles.row}>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/1dcZhOa7IAUMg2WUbBNVIikDqe03s5I5j?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 10
+						</a>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/1rdDZb4yszR50z3XP5bREWGfbBZe_6YdF?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 11
+						</a>
+						<a
+							className={styles.btn}
+							href="https://drive.google.com/drive/folders/1G7Gy5OI1Ua3bKJ-AAoTgDF2k4YwmWvua?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Grade 12 - 13
+						</a>
+					</div>
 				</div>
 			</div>
 		</>

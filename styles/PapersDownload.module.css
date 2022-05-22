@@ -1,11 +1,23 @@
 .text {
 	text-align: center;
 	font-size: 15px;
-	margin: 20px;
+	margin: 45px;
 }
 
 .buttonContainer {
-	color: #fff !important;
+	color: #fff;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #7c0404;
+	font-size: 16px;
+	width: 160px;
+	height: 40px;
+	border-radius: 4px;
+	margin: 38px;
 }
 
 .mainBtnContainer {
@@ -15,10 +27,15 @@
 
 .mainBtn {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	background-color: #7c0404;
-	font-size: 17px;
-	width: 45%;
-	height: 30px;
+	font-size: 16px;
+	width: 50%;
+	height: 40px;
+}
+
+.gradeBtnContainer {
+	display: flex;
+	justify-content: center;
 }
