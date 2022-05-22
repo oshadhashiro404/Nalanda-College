@@ -43,7 +43,7 @@ const Navbar = () => {
 								: { color: '#7e8187' }
 						}
 					>
-						Principal's Message
+						Principal&apos;s Message
 					</a>
 				</Link>
 				<Link href="/ProjectTeam">
@@ -75,6 +75,7 @@ const Navbar = () => {
 				<a
 					href="https://classroom.google.com/"
 					target="_blank"
+					rel="noreferrer"
 					className={styles.navLink}
 				>
 					My Classrooom
@@ -82,6 +83,7 @@ const Navbar = () => {
 				<a
 					href="https://myaccount.google.com/personal-info"
 					target="_blank"
+					rel="noreferrer"
 					className={styles.navLink}
 				>
 					My Account

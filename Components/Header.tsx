@@ -10,7 +10,11 @@ const Header = () => {
 	return (
 		<>
 			<div className={styles.headerImg}>
-				<Image src={headerImage} objectFit="contain" />
+				<Image
+					src={headerImage}
+					objectFit="contain"
+					alt="Nalanda College Logo"
+				/>
 			</div>
 
 			<ul className={styles.links}>

@@ -13,6 +13,7 @@ const PapersDownload = () => {
 					<a
 						className={styles.mainBtn}
 						target="_blank"
+						rel="noreferrer"
 						href="https://drive.google.com/drive/folders/1XKBN8ruq9IChRALP-FSPHjv9-EMvZ7_B"
 					>
 						Download Subject Unit Test Papers
